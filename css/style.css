@@ -52,6 +52,15 @@ h3 {
     background-repeat: no-repeat;
 }
 
+.categoria-img{
+    transition-property: transform;
+    transition-duration: .3s;
+}
+
+.categoria-img:hover {
+    transform: scale(1.2);
+}
+
 @media (min-width: 768px){
     h1 {
         font-size: 5rem;
