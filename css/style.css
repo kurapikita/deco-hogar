@@ -20,11 +20,6 @@ h1 {
     font-size: 3.8rem;
 }
 
-@media (min-width: 768px){
-    h1 {
-        font-size: 5rem;
-    }
-}
 
 /* ================ Reescribir colores ================*/
 
@@ -32,3 +27,21 @@ h1 {
     color: var(--bs-green) !important;
 }
 
+.hero {
+    background-image: url(../images/principal.jpg);
+    height: 25rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+@media (min-width: 768px){
+    h1 {
+        font-size: 5rem;
+    }
+
+    .hero {
+        height: 55rem;
+    }
+}
