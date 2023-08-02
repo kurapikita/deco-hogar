@@ -1,5 +1,7 @@
 :root {
     --bs-green: #84A98C;
+    --bs-green-dark: #52796F;
+    --bs-green-really-dark: #354F52;
 }
 
 html {
@@ -20,11 +22,27 @@ h1 {
     font-size: 3.8rem;
 }
 
+h2 {
+    font-size: 3.2rem;
+}
+
+h3 {
+    font-size: 2.4rem;
+}
 
 /* ================ Reescribir colores ================*/
 
 .text-primary, .nombre-sitio {
     color: var(--bs-green) !important;
+}
+
+.btn-success {
+    background-color: var(--bs-green-dark) !important;
+    border-color: var(--bs-green-dark) !important;
+}
+
+.bg-primary {
+    background-color: var(--bs-green) !important;
 }
 
 .hero {
@@ -35,13 +53,26 @@ h1 {
     background-repeat: no-repeat;
 }
 
-
 @media (min-width: 768px){
     h1 {
         font-size: 5rem;
     }
 
+    h2 {
+        font-size: 4rem;
+    }
+
+    h3 {
+        font-size: 3rem;
+    }
+
     .hero {
         height: 55rem;
+    }
+
+    .producto img {
+        height: 43rem;
+        width: 100%;
+        object-fit: cover;
     }
 }
