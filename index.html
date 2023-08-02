@@ -14,14 +14,27 @@
     <header class="py-5">
         <h1 class="text-center">Deco <span class="text-primary">Hogar</span></h1>
     </header>
-    <nav class="navbar-nav container d-flex flex-md-row justify-content-md-between text-center">
-        <a class="text-dark text-decoration-none" href="#">Inicio</a>
-        <a class="text-dark text-decoration-none" href="#">Nosotros</a>
-        <a class="text-dark text-decoration-none" href="#">Tienda</a>
-        <a class="text-dark text-decoration-none" href="#">Blog</a>
-        <a class="text-dark text-decoration-none" href="#">Galeria</a>
-        <a class="text-dark text-decoration-none" href="#">Contacto</a>
-    </nav>
+    <div class="border-top py-4">
+        <nav class="navbar navbar-expand-md container px-4 navbar-light">
+            <a href="/index.html" class="navbar-brand nombre-sitio d-md-none fs-2 fw-bold text-uppercase">
+                Deco Hogar
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navegacion">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navegacion" class="collapse navbar-collapse">
+                <nav class="navbar-nav container d-flex flex-md-row justify-content-md-between text-center">
+                    <a class="text-dark text-decoration-none" href="#">Inicio</a>
+                    <a class="text-dark text-decoration-none" href="#">Nosotros</a>
+                    <a class="text-dark text-decoration-none" href="#">Tienda</a>
+                    <a class="text-dark text-decoration-none" href="#">Blog</a>
+                    <a class="text-dark text-decoration-none" href="#">Galeria</a>
+                    <a class="text-dark text-decoration-none" href="#">Contacto</a>
+                </nav>
+            </div>
+        </nav>
+    </div>
+    
     <script src="/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

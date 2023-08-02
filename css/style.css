@@ -28,6 +28,7 @@ h1 {
 
 /* ================ Reescribir colores ================*/
 
-.text-primary {
+.text-primary, .nombre-sitio {
     color: var(--bs-green) !important;
 }
+
