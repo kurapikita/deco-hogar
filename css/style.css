@@ -1,5 +1,15 @@
+:root {
+    --bs-green: #84A98C;
+}
+
 html {
-    font-size: 62.5%;
+    font-size: 62.5%;  /* 1 rem = 10px */
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
 }
 
 h1, h2, h3 {
@@ -14,4 +24,10 @@ h1 {
     h1 {
         font-size: 5rem;
     }
+}
+
+/* ================ Reescribir colores ================*/
+
+.text-primary {
+    color: var(--bs-green) !important;
 }
