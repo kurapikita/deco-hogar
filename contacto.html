@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deco Hogar - Contacto</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <header class="py-5">
         <h1 class="text-center">Deco <span class="text-primary">Hogar</span></h1>
@@ -37,35 +41,45 @@
     <main class="container-xl py-5">
         <h2 class="text-center my-5">Contacto</h2>
         <div class="row justify-content-center">
-            <form class="col-md-8">
+            <form class="col-md-8 needs-validation" novalidate>
                 <fieldset>
                     <legend class="bg-primary text-center text-white fw-bold fs-2">Tus datos</legend>
                 </fieldset>
                 <div class="mb-3">
                     <label for="nombre" class="form-label">Nombre: </label>
-                    <input type="text"  id="nombre" placeholder="Tu nombre" class="form-control">
+                    <input type="text" id="nombre" placeholder="Tu nombre" class="form-control" required>
+                    <span class="invalid-feedback">Hubo un error...</span>
+                    <span class="valid-feedback">Muy bien!</span>
                 </div>
                 <div class="mb-3">
                     <label for="asunto" class="form-label">Asunto: </label>
-                    <input type="text"  id="asunto" placeholder="Tu asunto" class="form-control">
+                    <input type="text" id="asunto" placeholder="Tu asunto" class="form-control" required>
+                    <span class="invalid-feedback">Hubo un error...</span>
+                    <span class="valid-feedback">Muy bien!</span>
                 </div>
                 <div class="mb-3">
                     <label for="email" class="form-label">Email: </label>
-                    <input type="email"  id="email" placeholder="Tu email" class="form-control">
+                    <input type="email" id="email" placeholder="Tu email" class="form-control" required>
+                    <span class="invalid-feedback">Hubo un error...</span>
+                    <span class="valid-feedback">Muy bien!</span>
                 </div>
                 <div class="mb-3">
                     <label for="telefono" class="form-label">Teléfono: </label>
-                    <input type="tel"  id="telefono" placeholder="Tu teléfono" class="form-control">
+                    <input type="tel" id="telefono" placeholder="Tu teléfono" class="form-control" required>
+                    <span class="invalid-feedback">Hubo un error...</span>
+                    <span class="valid-feedback">Muy bien!</span>
                 </div>
                 <div class="mb-3">
                     <label for="mensaje" class="form-label">Mensaje: </label>
-                    <textarea rows="10" id="mensaje" class="form-control"></textarea>
+                    <textarea rows="10" id="mensaje" class="form-control" required></textarea>
+                    <span class="invalid-feedback">Hubo un error...</span>
+                    <span class="valid-feedback">Muy bien!</span>
                 </div>
                 <fieldset>
                     <legend class="bg-primary text-center text-white fw-bold fs-2">País</legend>
                     <div class="mb-3">
                         <label for="pais" class="form-label">País: </label>
-                       <select class="form-control" id="pais">
+                        <select class="form-control" id="pais" required>
                             <option value="">--Seleccione--</option>
                             <option value="MX">México</option>
                             <option value="PE">Perú</option>
@@ -73,25 +87,29 @@
                             <option value="AR">Argentina</option>
                             <option value="ES">España</option>
                             <option value="CL">Chile</option>
-                       </select>
+                        </select>
+                        <span class="invalid-feedback">Hubo un error...</span>
+                        <span class="valid-feedback">Muy bien!</span>
                     </div>
                 </fieldset>
                 <fieldset>
                     <legend class="bg-primary text-center text-white fw-bold fs-2">Información extra</legend>
                     <div class="mb-3 form-check">
                         <label for="cliente" class="form-label">Cliente</label>
-                        <input type="radio" class="form-check-input" id="cliente" name="tipo">
+                        <input type="radio" class="form-check-input" id="cliente" name="tipo" required>
                     </div>
                     <div class="mb-3 form-check">
                         <label for="proveedor" class="form-label">Proveedor</label>
-                        <input type="radio" class="form-check-input" id="proveedor" name="tipo">
+                        <input type="radio" class="form-check-input" id="proveedor" name="tipo" required>
                     </div>
+                    <span class="invalid-feedback">Hubo un error...</span>
+                    <span class="valid-feedback">Muy bien!</span>
                 </fieldset>
                 <div class="d-grid d-md-flex justify-content-md-center">
                     <input type="submit" class="btn btn-success fs-2 px-5 mt-5" value="Enviar formulario">
                 </div>
             </form>
-        </div>        
+        </div>
     </main>
     <footer class="pt-5 mt-5 border-top">
         <div class="container-xl mt-5">
@@ -131,7 +149,8 @@
             <p class="mt-5 text-center fs-2">Todos los derechos reservados. Deco Hogar</p>
         </div>
     </footer>
-    
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
 </body>
+
 </html>
