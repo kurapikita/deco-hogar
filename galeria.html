@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deco Hogar - Galería</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="py-5">
+        <h1 class="text-center">Deco <span class="text-primary">Hogar</span></h1>
+    </header>
+    <div class="border-top py-4">
+        <nav class="navbar navbar-expand-md container px-4 navbar-light">
+            <a href="/index.html" class="navbar-brand nombre-sitio d-md-none fs-2 fw-bold text-uppercase">
+                Deco Hogar
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navegacion">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navegacion" class="collapse navbar-collapse">
+                <nav class="navbar-nav container d-flex flex-md-row justify-content-md-between text-center">
+                    <a class="text-dark text-decoration-none" href="index.html">Inicio</a>
+                    <a class="text-dark text-decoration-none" href="nosotros.html">Nosotros</a>
+                    <a class="text-dark text-decoration-none" href="tienda.html">Tienda</a>
+                    <a class="text-dark text-decoration-none" href="blog.html">Blog</a>
+                    <a class="text-dark text-decoration-none" href="galeria.html">Galeria</a>
+                    <a class="text-dark text-decoration-none" href="contacto.html">Contacto</a>
+                </nav>
+            </div>
+        </nav>
+    </div>
+    <main class="container-xl py-5">
+        <h2 class="text-center my-5">Galería</h2>
+        <ul class="row list-unstyled galeria">
+            <li class="col-md-6 col-lg-4">
+                <a data-bs-toggle="modal" data-bs-target="#modal-imagen-1">
+                    <img src="images/galeria_01.jpg" alt="Imagen de galería 1" class="img-fluid">
+                </a>
+            </li>
+            <li class="col-md-6 col-lg-4">
+                <img src="images/galeria_02.jpg" alt="Imagen de galería 2" class="img-fluid">
+            </li>
+            <li class="col-md-6 col-lg-4">
+                <img src="images/galeria_03.jpg" alt="Imagen de galería 3" class="img-fluid">
+            </li>
+            <li class="col-md-6 col-lg-4">
+                <img src="images/galeria_04.jpg" alt="Imagen de galería 4" class="img-fluid">
+            </li>
+            <li class="col-md-6 col-lg-4">
+                <img src="images/galeria_05.jpg" alt="Imagen de galería 5" class="img-fluid">
+            </li>
+            <li class="col-md-6 col-lg-4">
+                <img src="images/galeria_06.jpg" alt="Imagen de galería 6" class="img-fluid">
+            </li>
+            <li class="col-md-6 col-lg-4">
+                <img src="images/galeria_07.jpg" alt="Imagen de galería 7" class="img-fluid">
+            </li>
+            <li class="col-md-6 col-lg-4">
+                <img src="images/galeria_08.jpg" alt="Imagen de galería 8" class="img-fluid">
+            </li>
+            <li class="col-md-6 col-lg-4">
+                <img src="images/galeria_09.jpg" alt="Imagen de galería 9" class="img-fluid">
+            </li>
+        </ul>
+    </main>
+    <div class="modal fade" id="modal-imagen-1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="images/galeria_01.jpg" alt="Imagen de galería 1" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="pt-5 mt-5 border-top">
+        <div class="container-xl mt-5">
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <h3 class="mb-4">Categorías</h3>
+                    <nav class="d-flex mb-4 mb-md-0 flex-column">
+                        <a class="text-dark text-decoration-none" href="#">Cocinas</a>
+                        <a class="text-dark text-decoration-none" href="#">Oficinas</a>
+                        <a class="text-dark text-decoration-none" href="#">Jardín</a>
+                        <a class="text-dark text-decoration-none" href="#">Cochera</a>
+                        <a class="text-dark text-decoration-none" href="#">Dormitorios</a>
+                    </nav>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h3 class="mb-4">Sobre Nosotros</h3>
+                    <nav class="d-flex mb-4  mb-md-0 flex-column">
+                        <a class="text-dark text-decoration-none" href="#">Nuestra Historia</a>
+                        <a class="text-dark text-decoration-none" href="#">Misión, Visión y Valores</a>
+                        <a class="text-dark text-decoration-none" href="#">Carreas</a>
+                        <a class="text-dark text-decoration-none" href="#">Política de Privacidad</a>
+                        <a class="text-dark text-decoration-none" href="#">Términos del Servicio
+
+                        </a>
+                    </nav>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h3 class="mb-4">Soporte</h3>
+                    <nav class="d-flex mb-4 mb-md-0 flex-column">
+                        <a class="text-dark text-decoration-none" href="#">Preguntas Frecuentes</a>
+                        <a class="text-dark text-decoration-none" href="#">Ayuda en Línea</a>
+                        <a class="text-dark text-decoration-none" href="#">Confianza y Seguridad</a>
+                        </a>
+                    </nav>
+                </div>
+            </div>
+            <p class="mt-5 text-center fs-2">Todos los derechos reservados. Deco Hogar</p>
+        </div>
+    </footer>
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

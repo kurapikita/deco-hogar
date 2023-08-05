@@ -61,6 +61,10 @@ h3 {
     transform: scale(1.2);
 }
 
+.galeria li:not(:last-of-type) {
+    margin-bottom: 1rem;
+}
+
 @media (min-width: 768px){
     h1 {
         font-size: 5rem;
