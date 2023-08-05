@@ -1,6 +1,6 @@
 :root {
     --bs-green: #2F3E46;
-    --bs-green-dark: #52796F;
+    --bs-green-medium: #52796F;
 }
 
 html {
@@ -36,8 +36,8 @@ h3 {
 }
 
 .btn-success {
-    background-color: var(--bs-green-dark) !important;
-    border-color: var(--bs-green-dark) !important;
+    background-color: var(--bs-green-medium) !important;
+    border-color: var(--bs-green-medium) !important;
 }
 
 .bg-primary {
@@ -63,6 +63,11 @@ h3 {
 
 .galeria li:not(:last-of-type) {
     margin-bottom: 1rem;
+}
+
+.form-control {
+    padding: 1rem;
+    font-size: 1.6rem;
 }
 
 @media (min-width: 768px){
